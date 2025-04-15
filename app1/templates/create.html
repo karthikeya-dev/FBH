@@ -1,0 +1,22 @@
+{% extends 'main.html' %}
+{% block content %}
+{% load static %}
+<div class="formdiv">
+    <form action="" method="POST">
+        {% csrf_token %}
+        <label for="">NAME:</label>
+        <input type="text" name="name" id=""><br>
+        <label for="">DOB:</label>
+        <input type="date" name="dob" id=""><br>
+        <label for="">Aadhar:</label>
+        <input type="number" name="aadhar" id=""><br>
+        <label for="">Mobile:</label>
+        <input type="text" name="mobile" id=""><br>
+        <label for="">EMAIL:</label>
+        <input type="email" name="email" id=""><br>
+        <label for="">Adress:</label>
+        <textarea name="textarea" id=""></textarea><br><br>
+        <button type="submit" class="createbtn">Submit</button>
+    </form>
+</div>
+{% endblock content %}

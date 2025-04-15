@@ -1,0 +1,10 @@
+{% extends 'main.html' %}
+{% block content %}
+{% load static %}
+<form action="" method="POST">
+    {% csrf_token %}
+    <label for="" class="label">Account number: </label>
+    <input type="number" name="accountnumber" id="" class="input"><br>
+    <button type="submit">Generate otp</button>
+</form>
+{% endblock content %}

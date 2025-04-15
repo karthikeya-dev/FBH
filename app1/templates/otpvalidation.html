@@ -1,0 +1,15 @@
+{% extends 'main.html' %}
+{% block content %}
+<form action="" method="POST">
+    {% csrf_token %}
+    <label for="" class="label">account number: </label>
+    <input type="number" name="accnumber" id="" class="input"><br>
+    <label for="" class="label">OTP: </label>
+    <input type="number" name="Otp" id="" class="input"><br>
+    <label for="" class="label">PIN:</label>
+    <input type="number" name="pin1" id="" class="input"><br>
+    <label for="" class="label">confirm pin: </label>
+    <input type="number" name="pin2" id="" class="input"><br>
+    <button type="submit">set pin</button>
+</form>
+{% endblock content %}

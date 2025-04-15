@@ -1,0 +1,18 @@
+{% extends 'main.html' %}
+{% block content %}
+
+{% if var %}
+<h1>the balenece is: {{bal}}</h1>
+{% else %}
+<form action="" method="POST">
+    {% csrf_token %}
+    <label for="" class="label">ACC:</label>
+    <input type="number" name="acc" id="" class="input"><br>
+    <label for="" class="label">pin:</label>
+    <input type="number" name="pin" id="" class="input"><br><br>
+    <button type="submit">CHECK BALENCE</button>
+</form>
+{% endif %}
+
+{{msg}}
+{% endblock content %}

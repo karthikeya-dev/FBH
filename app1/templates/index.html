@@ -1,0 +1,13 @@
+
+{% extends 'main.html' %}
+{% block content %}
+{% load static %}
+<div class="imgdiv">
+    <a href="{% url 'createpage' %}"><img src="{% static 'images/Profile.png' %}" alt="" class="img"></a>
+    <a href="{% url 'deposit' %}"><img src="{% static 'images/deposite.webp' %}" alt=""  class="img" title="deposite page"></a>
+    <a href="{% url 'pingenerate' %}"><img src="{% static 'images/pin.jpg' %}" alt="" class="img"></a>
+    <a href="{% url 'transfer' %}"><img src="{% static 'images/service.avif' %}" alt="" class="img"></a>
+    <a href="{% url 'bal' %}"><img src="{% static 'images/wallet.png' %}" alt="" class="img"></a>
+    <a href="{% url 'withdraw' %}"><img src="{% static 'images/withdraw.png' %}" alt="" class="img"></a>
+</div>
+{% endblock content %}

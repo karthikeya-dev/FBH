@@ -1,0 +1,11 @@
+{% extends 'main.html' %}
+{% block content %}
+<form action="" method="POST">
+    {% csrf_token %}
+    acc <input type="number" name="acc" id="" class="input"><br>
+    <!-- reciver acc: <input type="number" name="accreciver" id="" class="input"><br> -->
+    pin <input type="password" name="pin" id="" class="input"><br>
+    amt <input type="number" name="amt" id="" class="input"><br>
+    <button type="submit">DEPOSIT</button>    
+</form>
+{% endblock content %}

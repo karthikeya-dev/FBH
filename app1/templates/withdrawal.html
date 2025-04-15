@@ -1,0 +1,10 @@
+{% extends 'main.html' %}
+{% block content %}
+<form action="" method="POST">
+    {% csrf_token %}
+    ACC <input type="number" name="acc" id="" class="input"><br>
+    pin <input type="password" name="pin" id="" class="input"><br>
+    amt <input type="number" name="amt" id="" class=" input"><br>
+    <button type="submit">WITHDRAW</button>
+</form>
+{% endblock content %}
