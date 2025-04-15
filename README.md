@@ -2,10 +2,31 @@
 # Django-FBH(FRAUD BANK OF HYDERABADH)-BANKING APP
 ##.Its an bank project based upon the real world website ,its not for making any frauds.
 # Features of this projects
-##.it has account registration.
-##.it has login page,pin generation.
-##.it has the account to account money transfer,otp genration,deposite page and the money withdrawal page
-##.it has the features of the mail sending and message sending when ever we do any work with it.
+.User Account Management
+
+.Account registration (Sign-Up)
+
+.Login page with secure authentication
+
+PIN generation for transaction security
+
+Transaction Capabilities
+
+.Account-to-account money transfer
+
+OTP (One-Time Password) generation for secure actions
+
+Deposit funds to account
+
+Money withdrawal feature
+
+Notification System
+
+Email alerts for all activities (transfers, deposits, withdrawals, etc.)
+
+SMS/message notifications for user actions
+
+
 
 # TECHNOLOGIES USED 📌
 
